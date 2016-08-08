@@ -90,6 +90,8 @@ a {
 }
 .accordeon__item {
 	margin-bottom: 5px;
+	border-radius: 20px;
+	background-color: #e7e7e7;
 }
 .accordeon__item:nth-of-type(even)>a {
 	background-color: #e7e7e7;
@@ -102,4 +104,8 @@ a {
 }
 .accordeon__inner {
 	display: none;
+}
+.accordeon__inner-link {
+	font-family: fira_sanslight;
+	color: #4F4F4F;
 }
