@@ -88,11 +88,20 @@ a {
 	border-left: 7px solid transparent;
 	border-right: 7px solid transparent;
 }
+.accordeon__item.active>.accordeon__trigger {
+	background-color: #FE8663;
+	color: #ffffff;	
+}
+.accordeon__item.active>.accordeon__trigger:after {
+	border-top: 12px solid #FFFFFF;
+	transform: rotate(180deg);
+}
 .accordeon__item {
 	margin-bottom: 5px;
 	border-radius: 20px;
 	background-color: #e7e7e7;
 }
+
 .accordeon__item:nth-of-type(even)>a {
 	background-color: #e7e7e7;
 	color: #4F4F4F;
